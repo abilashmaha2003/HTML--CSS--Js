@@ -1,0 +1,65 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Tw Cen Mt';
+}
+.container{
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: white;
+    border: 5px solid red;
+    font-size: 25px;
+    border-radius: 5px;
+}
+h2{
+    margin-top: 0;
+    text-align: center;
+    text-decoration: underline solid;
+}
+form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 15px;
+}
+input[type="number"],
+select
+{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+input[type="number"]:focus,
+select:focus{
+    outline: none;
+    box-shadow: 0 0 5px blue;
+}
+
+select{
+    width: 100%;
+}
+input[type="submit"]
+{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-weight:bold;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.s ease;
+}
+input[type="submit"]:hover{
+    background-color:yellow;
+}
+
+#result{
+    font-weight: bold;
+    font-family: 'Tw Cen Mt';
+    color:black;
+}
